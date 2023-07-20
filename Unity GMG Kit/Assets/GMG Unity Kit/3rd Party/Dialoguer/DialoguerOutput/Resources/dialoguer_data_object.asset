@@ -1,0 +1,637 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6531ab7068c4b839cc4eaa93394170, type: 3}
+  m_Name: dialoguer_data_object
+  m_EditorClassIdentifier: 
+  data:
+    generateEnum: 1
+    dialogues:
+    - id: 0
+      name: My First Dialogue
+      startPage: 0
+      scrollPosition: {x: 157.94583, y: 2.000122}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 244, y: 81}
+        outs: 01000000
+        advanced: 1
+        metadata: 
+        text: Welcome to Dialoguer!
+        name: Alonna
+        portrait: alonna_cheerful
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 585, y: 133}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: Make sure you delete these dialogue trees before you start creating
+          your own!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 973, y: 208}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 1
+      name: 
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 212, y: 80}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Dialogue trees can be used as separators in the dialogue selector as
+          well. This dialogue has no title, so it will not show up in the DialoguerDialogues
+          enum, and will appear as a sseparator (-) in the Dialogue Selector.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 570, y: 147}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 2
+      name: My Second Dialogue
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 213, y: 60}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Have fun, and thanks for choosing Dialoguer!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 632, y: 188}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 3
+      name: Temp
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 603, y: 84}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 1
+        theme: 
+        position: {x: 190, y: 72}
+        outs: 0000000000000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Cool!
+        - Very Cool!
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 4
+      name: Switch
+      startPage: 2
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 590, y: 55}
+        outs: 01000000
+        advanced: 1
+        metadata: 
+        text: Hello! I'm a candy cane
+        name: Ms. Stripes
+        portrait: wendy_talking
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 1
+        theme: 
+        position: {x: 898.69995, y: 64}
+        outs: 0300000005000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Activate
+        - Deactivate
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 4
+        theme: 
+        position: {x: 39, y: 135}
+        outs: 0600000000000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 15}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: true
+        messageName: 
+      - id: 3
+        type: 3
+        theme: 
+        position: {x: 1276.9736, y: 10}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 6
+        theme: 
+        position: {x: 1640.9736, y: 156}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 3
+        theme: 
+        position: {x: 1332.2643, y: 355}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 15}
+        variableSetEquation: 0
+        variableSetValue: false
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 247, y: 512}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: autobots roll out
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 6
+        theme: 
+        position: {x: 599, y: 600.42847}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    globals:
+      booleans:
+        variables:
+        - name: Activate
+          variable: false
+          id: 0
+        selection: 0
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+    themes:
+      themes: []
+      selection: 0
+    selectorScrollPosition: {x: 0, y: 0}
