@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MC Jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238add6a58ed6ef44a1c4076ce3cfaf1
+      internalID: 94659287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_1
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c13dc588ba565419009b33d8ef3818
+      internalID: -152111481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_2
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13313d6d0d01662478f29c3d375dff5d
+      internalID: -913838715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_3
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e94153d4f4a2146a29671dd0e3c385
+      internalID: -907880812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_4
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058cd20a8eb16264c9ac1868ce9f584f
+      internalID: 538661592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_5
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 4090
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8539a592b5b6ad45b64e712adf8cb24
+      internalID: 2141852978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0174b6e6b61044f84929c4bef90505
+      internalID: -317964057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89940bbb98216340a407c6988556707
+      internalID: 1089556848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1585960500b061846a4458caf559aeb6
+      internalID: -1404418164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_9
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6837a4eef35fe489d9bfb8782fe858
+      internalID: 1589729779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_10
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8aec2f804ec24fba5564bd15ba3a8
+      internalID: -1368232496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_11
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 3272
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3cca9e42b48d64fbcf221d7a346942
+      internalID: 1904970187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ad9b6861a660448e4acc5f1fb4fcc
+      internalID: 733364675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32888f8e5a7af645b87f96205759872
+      internalID: 811717126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932be89d631205341b286c00da8dc5d3
+      internalID: -1342967069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_15
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845825a655f486a4f8bfae52c5ad9743
+      internalID: 1103532418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_16
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7244fe401c0b15b4485250faf612c6ff
+      internalID: 1473257233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_17
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 2454
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a718563c1c8924cadde61bcbfaf139
+      internalID: 1421148880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b087dfdd27cd2f34a8d298f6339e6f0b
+      internalID: -1599997308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_19
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ed0962886a41b47987711858c3d785
+      internalID: -109766415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_20
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0171fe7fc7c33479d78b2ddf952c82
+      internalID: 104497547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_21
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a5f6863e5554e49840c23563f4f9e2
+      internalID: -299696370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_22
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4e8a06a1ec24a4da21c3a871422f35
+      internalID: -1113248164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_23
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 1636
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f95d2adec6e9145b224a496b7d2f1e
+      internalID: -1936083068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699878d81cf67cb4fb13052a7f74866f
+      internalID: -2125271541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_25
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16794cbfa72c814d8f408b5135090ec
+      internalID: -1606961399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_26
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5a9b37423cc384aa5719fbe16cbbe7
+      internalID: 1385560971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_27
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c374582a742436479c50e7aea0e1141
+      internalID: 875896102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_28
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62756a86c6400745b5e5ff0f0aad2a4
+      internalID: -1104696082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_29
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 818
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be2131961bef94587b4bee9804f957
+      internalID: 1266292361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a87a182ed297549abc152710e22ea9
+      internalID: -1092097409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_31
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e56455aa4eb5524980f6cbc1c8ef348
+      internalID: 1753351585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_32
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1734558d0d2e9fa43989274b1dfc19f8
+      internalID: 931412099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_33
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e882099faf8331c4e8d6e29ed1594e4c
+      internalID: 152212407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_34
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d86c56f7c3f84ba81a3afc8947169
+      internalID: 929113583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Jump_35
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 0
+        width: 827
+        height: 818
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a05becc763a0341ab86480d47673f9
+      internalID: 1688830956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MC Jump_6: -317964057
+      MC Jump_14: -1342967069
+      MC Jump_31: 1753351585
+      MC Jump_13: 811717126
+      MC Jump_34: 929113583
+      MC Jump_20: 104497547
+      MC Jump_11: 1904970187
+      MC Jump_23: -1936083068
+      MC Jump_28: -1104696082
+      MC Jump_21: -299696370
+      MC Jump_35: 1688830956
+      MC Jump_8: -1404418164
+      MC Jump_32: 931412099
+      MC Jump_27: 875896102
+      MC Jump_24: -2125271541
+      MC Jump_15: 1103532418
+      MC Jump_30: -1092097409
+      MC Jump_22: -1113248164
+      MC Jump_0: 94659287
+      MC Jump_1: -152111481
+      MC Jump_5: 2141852978
+      MC Jump_17: 1421148880
+      MC Jump_7: 1089556848
+      MC Jump_26: 1385560971
+      MC Jump_19: -109766415
+      MC Jump_9: 1589729779
+      MC Jump_29: 1266292361
+      MC Jump_4: 538661592
+      MC Jump_16: 1473257233
+      MC Jump_33: 152212407
+      MC Jump_2: -913838715
+      MC Jump_3: -907880812
+      MC Jump_25: -1606961399
+      MC Jump_12: 733364675
+      MC Jump_10: -1368232496
+      MC Jump_18: -1599997308
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
