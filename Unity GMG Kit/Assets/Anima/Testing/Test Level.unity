@@ -6497,7 +6497,7 @@ Transform:
   m_Children:
   - {fileID: 192689580}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &522988140
 GameObject:
@@ -11311,24 +11311,6 @@ Transform:
   m_Father: {fileID: 2009441884}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!1 &565416780 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 132242, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
-  m_PrefabInstance: {fileID: 1426105114}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &565416792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565416780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dc07b5c9755fe4380380ce23c807a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 3
 --- !u!1 &609043278
 GameObject:
   m_ObjectHideFlags: 0
@@ -11383,8 +11365,6 @@ GameObject:
   m_Component:
   - component: {fileID: 823843133}
   - component: {fileID: 823843132}
-  - component: {fileID: 823843134}
-  - component: {fileID: 823843136}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Pickup
@@ -11488,9 +11468,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 823843133}
-  - {fileID: 2024810169}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273671749
 GameObject:
@@ -11590,16 +11569,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxFactor: 1
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2263024094246581654, guid: 75ab5fb715350894fb4b48c6b5abece4, type: 3}
-  m_PrefabInstance: {fileID: 2263024092747705681}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065797c98d33de34ea77e28151ff67ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1989334864
 GameObject:
   m_ObjectHideFlags: 0
@@ -11645,7 +11614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60722ae60bf209947977eb36ac470f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxCamera: {fileID: 1775704263}
+  parallaxCamera: {fileID: 0}
 --- !u!1 &2009441883
 GameObject:
   m_ObjectHideFlags: 0
@@ -11677,19 +11646,6 @@ Transform:
   - {fileID: 522988143}
   - {fileID: 609043279}
   - {fileID: 1989334865}
-  - {fileID: 2053501171}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6298602712204178988, guid: 17dc653e1b023b249afd4405b232c284, type: 3}
-  m_PrefabInstance: {fileID: 6298602713380292319}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
