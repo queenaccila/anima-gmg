@@ -11,6 +11,6 @@ public class mud : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D other)
     {
-            other.getcomponent<Move>().speed = 0.5;
+            //other.getcomponent<Move>().speed = 0.5;
     }
 }
