@@ -22,6 +22,15 @@ public class Jump : Physics2DObject
 
 	private bool canJump = true;
 
+	// for jumping animations
+	public Animator animator;
+
+	private void Start()
+    {
+        animator = GetComponent<Animator>();
+        Debug.Log(animator);
+    }
+
 	// Read the input from the player
 	void Update()
 	{
@@ -39,9 +48,12 @@ public class Jump : Physics2DObject
     // Called by mobile input UI jump button
     public void JumpButton()
     {
-        if (canJump)
+		if (canJump)
         {
-            // Apply an instantaneous upwards force
+			// jumping animation trigger
+			animator.SetBool("jumping", true);
+
+			// Apply an instantaneous upwards force
             rigidbody2D.AddForce(Vector2.up * jumpStrength, ForceMode2D.Impulse);
             canJump = !checkGround;
         }
@@ -53,6 +65,9 @@ public class Jump : Physics2DObject
 			&& collisionData.gameObject.CompareTag(groundTag))
 		{
 			canJump = true;
+
+			// jumping animation going back to idle or walk
+			animator.SetBool("jumping", false);
 		}
 	}
 }

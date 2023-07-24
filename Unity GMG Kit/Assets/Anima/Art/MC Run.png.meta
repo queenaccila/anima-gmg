@@ -192,7 +192,7 @@ TextureImporter:
       name: MC Run_4
       rect:
         serializedVersion: 2
-        x: 3228
+        x: 3212
         y: 2644
         width: 803
         height: 661
@@ -255,7 +255,7 @@ TextureImporter:
       name: MC Run_7
       rect:
         serializedVersion: 2
-        x: 819
+        x: 808
         y: 1983
         width: 803
         height: 661
@@ -297,8 +297,8 @@ TextureImporter:
       name: MC Run_9
       rect:
         serializedVersion: 2
-        x: 2425
-        y: 1951
+        x: 2417
+        y: 1983
         width: 803
         height: 661
       alignment: 2
@@ -360,8 +360,8 @@ TextureImporter:
       name: MC Run_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1308
+        x: 13
+        y: 1315
         width: 803
         height: 661
       alignment: 2
@@ -444,8 +444,8 @@ TextureImporter:
       name: MC Run_16
       rect:
         serializedVersion: 2
-        x: 3212
-        y: 1292
+        x: 3206
+        y: 1325
         width: 803
         height: 661
       alignment: 2
