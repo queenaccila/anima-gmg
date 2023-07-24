@@ -9,6 +9,7 @@ TagManager:
   - projectile
   - pet
   - Pickup
+  - Mud
   layers:
   - Default
   - TransparentFX
