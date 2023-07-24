@@ -22,4 +22,10 @@ public class PlaySoundOnSceneLoad : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	// pausing music
+	public void PauseMusic()
+	{
+		audioSource.Stop();
+	}
 }
