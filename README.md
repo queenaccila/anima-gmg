@@ -20,6 +20,8 @@ Press "Commit changes" and you're done! Others will see the art you uploaded and
 Please make sure to use a branch under your name for testing.
 It will be labeled "testing-" and your first name initial for your testing branch.
 
+For testing mechanics, I included empty scenes under your first names in the *Testing* folder. These areas are spaces you can test any features or mechanics you want to put in the game. The *Test Level* is what I have made myself so far, and plan to test any future mechanics here.
+
 ### Level Creation
 If you are working on a main level, go under *Scenes*, and there are scenes labeled "Level1", "Level2", or "Level3".
 These are empty scenes, so feel free to make your levels there!
