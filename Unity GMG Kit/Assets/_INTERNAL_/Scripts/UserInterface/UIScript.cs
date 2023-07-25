@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -12,9 +14,10 @@ public class UIScript : MonoBehaviour
     public bool ReloadSceneOnLose = true;
     public GameType gameType = GameType.Score;
 
-	// If the scoreToWin is -1, the game becomes endless (no win conditions, but you could do game over)
-	public int scoreToWin = 5;
 
+    // If the scoreToWin is -1, the game becomes endless (no win conditions, but you could do game over)
+	public int scoreToWin = 5;
+	
 
 	[Header("References (don't touch)")]
 	//Right is used for the score in P1 games
@@ -33,6 +36,8 @@ public class UIScript : MonoBehaviour
     private bool gameOver = false; //this gets changed when the game is won OR lost
 
 
+    private FadeInDisplayFadeOut _fadeScript;
+    
 	private void Start()
 	{
 		if(numberOfPlayers == Players.OnePlayer)
@@ -57,6 +62,15 @@ public class UIScript : MonoBehaviour
 
 				// Life will be provided by the PlayerHealth components
 			}
+		}
+
+		_fadeScript = FindObjectOfType<FadeInDisplayFadeOut>();
+
+		if(_fadeScript != null)
+			StartCoroutine(_fadeScript.FadeOut());
+		else
+		{
+			Debug.Log("FADE SCRIPT IS MISSING ON UI SCRIPT!");
 		}
 	}
 
@@ -126,6 +140,8 @@ public class UIScript : MonoBehaviour
 			gameOver = true;
 	        statsPanel.SetActive(false);
 	        gameOverPanel.SetActive(true);
+	        _fadeScript.ResetTimers();
+	        StartCoroutine(_fadeScript.FadeIn());
             Invoke("ReloadScene", 2);
 	    }
 	}
