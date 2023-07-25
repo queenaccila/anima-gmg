@@ -415,14 +415,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2964971708399401867, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
-      propertyPath: healthRect
-      value: 
-      objectReference: {fileID: 1348175087}
-    - target: {fileID: 2964971708399401867, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
-      propertyPath: healthManager
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
 --- !u!1 &170319039
@@ -12822,6 +12814,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07dcb0d891db8d4c877189dc11bea95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &658174630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 951936096252819137, guid: cc9eae117af312e43a0c90f23b393f58, type: 3}
+  m_PrefabInstance: {fileID: 52809485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &658174639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658174630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aff5eab828ef4f6399febda5f5f27f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPlayers: 0
+  ReloadSceneOnLose: 1
+  gameType: 1
+  scoreToWin: 5
+  numberLabels:
+  - {fileID: 0}
+  - {fileID: 0}
+  rightLabel: {fileID: 0}
+  leftLabel: {fileID: 0}
+  winLabel: {fileID: 0}
+  statsPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  winPanel: {fileID: 0}
+  inventory: {fileID: 0}
+  resourceItemPrefab: {fileID: 0}
 --- !u!1 &744050722
 GameObject:
   m_ObjectHideFlags: 0
@@ -13641,11 +13665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxFactor: 1
---- !u!224 &1348175087 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 22483070, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
-  m_PrefabInstance: {fileID: 161652597}
-  m_PrefabAsset: {fileID: 0}
 --- !u!198 &1869697458 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6888469831976518497, guid: 9416eab545b3cdc4082b7d1111607bb8, type: 3}

@@ -181,7 +181,6 @@ GameObject:
   - component: {fileID: 22382300}
   - component: {fileID: 11439034}
   - component: {fileID: 114000011035788918}
-  - component: {fileID: 2964971708399401867}
   m_Layer: 5
   m_Name: UserInterface
   m_TagString: Untagged
@@ -270,20 +269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balloonPrefab: {fileID: 1000011611653130, guid: e444db66902f44d08a89485896d75827, type: 3}
---- !u!114 &2964971708399401867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a90326a3454da64da9dd8438781acbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthManager: {fileID: 0}
-  healthRect: {fileID: 0}
 --- !u!1 &135850
 GameObject:
   m_ObjectHideFlags: 0
