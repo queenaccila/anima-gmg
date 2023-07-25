@@ -103,7 +103,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &831848447
+--- !u!114 &665470293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,10 +117,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   reactDelay: 0.5
-  recordFPS: 60
-  followSpeed: 2
-  targetDistance: 3
-  targetDistanceY: 1
+  recordFPS: 15
+  followSpeed: 5
+  targetDistance: 0
+  targetDistanceY: 0
   targetPositionOnStart: 0
   start: 1
   gizmo: 1

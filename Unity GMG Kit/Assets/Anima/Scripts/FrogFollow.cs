@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 /// Author: Matthew Mazan [Masterio]
-public class FrogFollow : MonoBehaviour
+public class PetFollow : MonoBehaviour
 {
     public Transform target = null;                    // follow by target
     public float reactDelay = 0.5f;                    // how fast it react to target moves [edit it in edit mode only]
