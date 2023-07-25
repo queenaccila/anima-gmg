@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 372646281178007621, guid: 3332803905ea3cc46912f9f0b8cdd44c, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 372646281178007621, guid: 3332803905ea3cc46912f9f0b8cdd44c, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1553518890, guid: 973396e5b281fb64ab521743654bbdcf, type: 3}
@@ -69,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8833660336192884188, guid: 3332803905ea3cc46912f9f0b8cdd44c, type: 3}
       propertyPath: m_Name
-      value: Animal
+      value: Lion
       objectReference: {fileID: 0}
     - target: {fileID: 8833660336192884188, guid: 3332803905ea3cc46912f9f0b8cdd44c, type: 3}
       propertyPath: m_TagString
