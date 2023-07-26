@@ -32,9 +32,11 @@ public class ResourceAttribute : MonoBehaviour
 		if(otherCollider.CompareTag("Player")
 			|| otherCollider.CompareTag("Player2"))
 		{
+			InventoryUI.Instance.UpdateItemText();
 			if(userInterface != null)
 			{
 				userInterface.AddResource(resourceIndex, amount, GetComponent<SpriteRenderer>().sprite);
+	
 			}
 			else
 			{
