@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Anima/Testing/Test Level.unity
     guid: 20d5a5b130cc6d443b94856f4c4203fd
+  - enabled: 1
+    path: Assets/Anima/Scenes/Level 1.unity
+    guid: 854f9cdc01b4dfb4bac5a222b0195dee
+  - enabled: 1
+    path: Assets/Anima/Scenes/Level-d.unity
+    guid: 5b1f93c55703d4768bf92275568a4c6e
   m_configObjects: {}
