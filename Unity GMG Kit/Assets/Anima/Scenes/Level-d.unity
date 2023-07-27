@@ -1365,6 +1365,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 380088516}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &411292613 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2031996161126347327, guid: f0a6ac84231419743b20e33e31b145d4, type: 3}
@@ -1377,6 +1378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> parent of 1c46487 (Tweaked UI)
+=======
+>>>>>>> parent of 8b907e9 (Added pipe prefab)
 =======
 >>>>>>> parent of 8b907e9 (Added pipe prefab)
 --- !u!1 &445599716
@@ -2846,6 +2849,7 @@ PrefabInstance:
       objectReference: {fileID: 1794289694}
     - target: {fileID: 6888469831976518503, guid: 9416eab545b3cdc4082b7d1111607bb8, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -2865,6 +2869,11 @@ PrefabInstance:
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: -1
       objectReference: {fileID: 0}
+=======
+      propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1765689844}
+>>>>>>> parent of 8b907e9 (Added pipe prefab)
 =======
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -3407,6 +3416,7 @@ Transform:
   m_PrefabInstance: {fileID: 2135689739}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2063319438719599615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3595,6 +3605,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
+=======
+>>>>>>> parent of 8b907e9 (Added pipe prefab)
 =======
 >>>>>>> parent of 8b907e9 (Added pipe prefab)
 --- !u!1001 &2918573720901723557
