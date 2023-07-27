@@ -21,7 +21,7 @@ public class InventoryUI : MonoBehaviour
     public void UpdateItemText()
     {
         count++;
-        Debug.Log("count " + count);
+        Debug.Log("count" + count);
         itemText.text = count.ToString() + "/5";
     }
 
