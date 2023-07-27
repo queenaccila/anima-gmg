@@ -2203,11 +2203,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0769262, y: 25.354265}
   m_EdgeRadius: 0
---- !u!95 &1103227250 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1345862822700568659, guid: f0a6ac84231419743b20e33e31b145d4, type: 3}
-  m_PrefabInstance: {fileID: 1900999481}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1133000819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2619,51 +2614,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524816380}
   m_CullTransparentMesh: 1
---- !u!1 &1738064702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1738064703}
-  - component: {fileID: 1738064704}
-  m_Layer: 0
-  m_Name: SceneTransition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1738064703
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738064702}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.69058, y: 13.804284, z: -0.7673573}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1738064704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738064702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d37deb2f10b90664c975a76d875b1477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1103227250}
 --- !u!114 &1765689844 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1345862821596911625, guid: f0a6ac84231419743b20e33e31b145d4, type: 3}
@@ -3547,11 +3497,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -3572,7 +3522,7 @@ PrefabInstance:
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1738064704}
+      objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -3591,7 +3541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: ChooseScene
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -3603,7 +3553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: SceneTransition, Assembly-CSharp
+      value: InventoryUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -3639,7 +3589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2063319436952798112, guid: 8e02539b2f48ef44ea353c5814bb15d6, type: 3}
       propertyPath: customActions.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
