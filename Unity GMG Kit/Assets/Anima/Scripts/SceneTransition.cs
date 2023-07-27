@@ -8,9 +8,7 @@ public class SceneTransition : MonoBehaviour
 {
     public Animator animator;
 
-    public string sceneName;
-
-    public void ChooseScene()
+    public void ChooseScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
