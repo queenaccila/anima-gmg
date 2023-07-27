@@ -78,6 +78,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HealthBar, Assembly-CSharp
+        m_MethodName: SetHealth
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   happenOnlyOnce: 0
   filterByTag: 0
   filterTag: Player
@@ -142,7 +154,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 9.485289, y: -2.078752}
+  m_Offset: {x: 9.336224, y: -2.078752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -153,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.970577, y: 4.8758154}
+  m_Size: {x: 10.2927475, y: 4.8758154}
   m_EdgeRadius: 0
 --- !u!199 &6888469831976518502
 ParticleSystemRenderer:
@@ -244,7 +256,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 0
   startDelay:
@@ -417,7 +429,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.27058825, g: 0.5686275, b: 0.9568628, a: 1}
+      maxColor: {r: 0.39607844, g: 0.4117647, b: 0.43529412, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -855,15 +867,15 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 90
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.43957776
-    m_Position: {x: 9.530855, y: 0.46441936, z: 0}
+    m_Position: {x: 9.315933, y: -0.82510376, z: 0}
     m_Rotation: {x: -0, y: 0, z: 0}
-    m_Scale: {x: 5.033824, y: 3.6458879, z: 1}
+    m_Scale: {x: 10.139114, y: 3.6458879, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -942,7 +954,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.50362873
       mode: 0
       spread: 0
       speed:

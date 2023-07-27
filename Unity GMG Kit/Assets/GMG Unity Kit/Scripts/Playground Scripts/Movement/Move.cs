@@ -79,8 +79,6 @@ public class Move : Physics2DObject
 		}
 	}
 
-
-
 	// FixedUpdate is called every frame when the physics are calculated
 	void FixedUpdate ()
 	{

@@ -25,7 +25,7 @@ public class PushInDirection : MonoBehaviour
             else
             {
                 if (!audioSrc.isPlaying) audioSrc.Play();
-                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.up * force);
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.right * force);
             }
         }
     }
