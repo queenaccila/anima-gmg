@@ -25,9 +25,13 @@ public class InventoryUI : MonoBehaviour
         itemText.text = count.ToString() + "/5";
     }
 
-    public int GetCount()
+    public void CheckCount()
     {
-        return count;
+        if(count == 5)
+        {
+            Debug.Log("pipe clogged");
+            // add animation for pipe clogged
+        }
     }
 
     void Awake()
