@@ -15,19 +15,19 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
         //itemText = GetComponent<TextMeshProUGUI>();
-        itemText.text = count.ToString() + "/5";
+        itemText.text = count.ToString() + "/4";
     }
 
     public void UpdateItemText()
     {
         count++;
         Debug.Log("count" + count);
-        itemText.text = count.ToString() + "/5";
+        itemText.text = count.ToString() + "/4";
     }
 
     public void CheckCount()
     {
-        if(count == 5)
+        if(count == 4)
         {
             Debug.Log("pipe clogged");
             // add animation for pipe clogged

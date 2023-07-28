@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Anima/Scenes/Main screen.unity
     guid: df5cc22fd5f5c43deb99b0b59dd0146a
   - enabled: 1
-    path: Assets/Anima/Scenes/Controls Menu.unity
-    guid: 7238794ee1d38ba44ac77e1c3e839925
-  - enabled: 1
     path: Assets/Anima/Scenes/Tutorial Level.unity
     guid: e522faddca7e69c4eb5ab61800758f25
   - enabled: 1
