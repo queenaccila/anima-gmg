@@ -1621,6 +1621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301879496}
   - component: {fileID: 301879497}
+  - component: {fileID: 301879498}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -1656,6 +1657,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFile: {fileID: 8300000, guid: f540e0a0f37c99e4e97354d66d4efa03, type: 3}
+  Loop: 1
+--- !u!114 &301879498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301879495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f85597724f578469c8720f9e354fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundFile: {fileID: 8300000, guid: 83f6dfa626c509c44a8aca67d1301027, type: 3}
   Loop: 1
 --- !u!1001 &309071271
 PrefabInstance:
@@ -4929,7 +4944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1345862823219834868, guid: f0a6ac84231419743b20e33e31b145d4, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 0
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1345862823219834869, guid: f0a6ac84231419743b20e33e31b145d4, type: 3}
       propertyPath: m_UiScaleMode
